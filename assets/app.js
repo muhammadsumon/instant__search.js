@@ -70,7 +70,7 @@ inputField.addEventListener("input", () => {
 
             if (falseIndexCounter >= arrClassDetails.length) {
                 document.querySelectorAll(".card").forEach(data => data.style.display = "none");
-                document.querySelector(".error").innerHTML = `<div class="not__founds d-flex flex-row align-items-center" style="background-color: white;"> <img src="assets/images/error.png" style="max-width: 500px;"><div class="not__founds__text"><h2>Not Founds !!</h2><p style="width: 500px;">Not Found? Please try to search by another keyword? I hope you will find or You might be hacker !! oh! No !! You hacked our system using only HTML ...... (◔‿◔) </p></div></div>`;
+                document.querySelector(".error").innerHTML = `<div class="not__founds d-flex flex-column flex-lg-row align-items-center" style="background-color: white;"> <img src="assets/images/error.png" style="max-width: 500px;"><div class="not__founds__text"><h2>Not Founds !!</h2><p style="width: 500px;">Not Found? Please try to search by another keyword? I hope you will find or You might be hacker !! oh! No !! You hacked our system using only HTML ...... (◔‿◔) </p></div></div>`;
             } else {
                 if (document.querySelector(".not__founds")) {
                     document.querySelector(".not__founds").remove();
@@ -133,7 +133,7 @@ form.addEventListener("submit", (e) => {
 
             if (falseIndexCounter >= arrClassDetails.length) {
                 document.querySelectorAll(".card").forEach(data => data.style.display = "none");
-                document.querySelector(".error").innerHTML = `<div class="not__founds d-flex flex-row align-items-center" style="background-color: white;"> <img src="assets/images/error.png" style="max-width: 500px;"><div class="not__founds__text"><h2>Not Founds !!</h2><p style="width: 500px;">Not Found? Please try to search by another keyword? I hope you will find or You might be hacker !! oh! No !! You hacked our system using only HTML ...... (◔‿◔) </p></div></div>`;
+                document.querySelector(".error").innerHTML = `<div class="not__founds d-flex flex-column flex-lg-row align-items-center" style="background-color: white;"> <img src="assets/images/error.png" style="max-width: 500px;"><div class="not__founds__text"><h2>Not Founds !!</h2><p style="width: 500px;">Not Found? Please try to search by another keyword? I hope you will find or You might be hacker !! oh! No !! You hacked our system using only HTML ...... (◔‿◔) </p></div></div>`;
             } else {
                 if (document.querySelector(".not__founds")) {
                     document.querySelector(".not__founds").remove();

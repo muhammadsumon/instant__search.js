@@ -77,3 +77,14 @@ body {
     display: inline-block;
     background-color: #7E5555;
 }
+
+@media screen and (max-width:576px) {
+    .not__founds__text p {
+        width: auto !important;
+    }
+
+    .not__founds img {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+}
