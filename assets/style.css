@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body {
+    font-family: 'Jost', sans-serif !important;
+}
+
+
+.switch__icon {
+    padding: 15px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    font-weight: normal;
+}
+
+.switch__icon a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    display: none;
+}
+
+.switch__icon a:hover {
+    opacity: 0.7;
+}
+
+.toggle a {
+    display: block !important;
+}
+
+.card {
+    width: 18rem;
+    margin: 20px;
+}
+
+.dis-block {
+    display: none !important;
+}
+
+.card:hover {
+    border-color: rgba(0, 0, 255, 0.555);
+}
+
+.card-heading {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    width: fit-content;
+    margin: 10px auto auto auto;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card-heading::before {
+    content: "";
+    width: 93px;
+    height: 18px;
+    background-color: #ECFFCE;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    z-index: -1;
+}
+
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card-body p span {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    background-color: #7E5555;
+}
